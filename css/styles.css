@@ -738,7 +738,6 @@ footer img{
         background-size: cover;
         background-position: top;
         background-repeat: no-repeat;
-
     }
 
     .titulo_index{
@@ -748,18 +747,22 @@ footer img{
     /* Main Index Presentación */
     
     .presentacion{
-        height: 700px;
+        height: 30%;
+        margin: 8% 0;
         display: flex;
         flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
     }
 
     .presentacion iframe{
-        height: 190px;
-        width: 350px;
+        height: 120%;
+        width: 100%;
     }
 
     .texto_presentacion{
-        width: 80%;
+        width: 75%;
+        margin-top: 5%;
     }
 
     /* Main Index Lista de Spotify */
