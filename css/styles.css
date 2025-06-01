@@ -665,6 +665,7 @@ nav img{
     height: 500px;
     width: 55%;
     margin-top: 50px;
+    font-weight: bold;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -955,6 +956,19 @@ footer img{
     .quinta_fecha{
         width: 100%;
         justify-content: space-between;
+    }
+
+    /* Main Contacto Formulario */
+    .contacto section{
+        width: 80%;
+    }
+
+    .descripcion{
+        text-align: justify;
+    }
+
+    .formulario form{
+        width: 80%;
     }
 
     /* Footer */
