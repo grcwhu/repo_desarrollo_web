@@ -261,7 +261,7 @@ nav img{
 
 .albumes{
     padding: 0;
-    margin: 100px 50px;
+    margin: 6% 3%;
     display: flex;
     justify-content: space-between;
 }
@@ -825,6 +825,102 @@ footer img{
 
     .gods_menu_texto{
         margin: 20px 0 0 0;
+        align-items: center;
+    }
+
+    /* Main Discografía Lista de albumes */
+
+    .albumes{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .mixtape_dominate{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .albumes_recientes{
+        width: 60%;
+    }
+
+    .albumes_antiguos{
+        width: 60%;
+    }
+
+    .mixtape_dominate_texto{
+        padding: 8% 0 0 0;
+        align-items: center;
+    }
+
+    .hop_album{
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .hop_album_texto{
+        padding: 8% 0 0 0;
+        align-items: center;   
+    }
+    
+    .ate_album{
+        flex-direction: column;
+        align-items: center;    
+    }
+
+    .ate_album_texto{
+        padding: 8% 0 0 0;
+        align-items: center;    
+    }
+
+    .rockstar_album{
+        flex-direction: column;
+        align-items: center;   
+    }
+
+    .rockstar_album_texto{
+        padding: 8% 0 0 0;
+        align-items: center;   
+    }
+
+    .fivestar_album{
+        flex-direction: column;
+        align-items: center; 
+        margin-top: 22%;
+    }
+
+    .fivestar_album_texto{
+        padding: 8% 0 0 0;
+        align-items: center;
+    }
+
+    .maxident_album{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .maxident_album_texto{
+        padding: 8% 0 0 0;
+        align-items: center;
+    }
+
+    .oddinary_album{
+        flex-direction: column;
+        align-items: center;   
+    }
+
+    .oddinary_album_texto{
+        padding: 8% 0 0 0;
+        align-items: center;
+    }
+
+    .noeasy_album{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .noeasy_album_texto{
+        padding: 8% 0 0 0;
         align-items: center;
     }
 
