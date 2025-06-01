@@ -929,7 +929,7 @@ footer img{
 
     .fechas_tour{
         flex-direction: column;
-        margin: 0 10%;
+        margin: 0 6%;
     }
 
     .primera_fecha{
@@ -958,6 +958,22 @@ footer img{
         justify-content: space-between;
     }
 
+    /* Main Tour Fotos */
+    .galeria{
+        grid-template-areas: 
+        "img1"
+        "img2"
+        "img3"
+        "img4"
+        "img5"
+        "img6";
+        grid-template-columns: 80%;
+        grid-template-rows: 15% 25% repeat(3,15%) 10%;
+    }
+
+    .img_2_grid{
+        height: 20px;
+    }
     /* Main Contacto Formulario */
     .contacto section{
         width: 80%;
