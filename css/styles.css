@@ -685,14 +685,14 @@ nav img{
 .boton_enviar{
     color: #ffffff;
     background-color: #7d0a0a;
-    border-radius: 3px;
+    border-radius: 15px;
     margin-bottom: 30px;
 }
 
 .boton_borrar{
     color: #ffffff;
     background-color: #BF3131;
-    border-radius: 3px;
+    border-radius: 15px;
 }
 
 /* Footer */
@@ -922,6 +922,39 @@ footer img{
     .noeasy_album_texto{
         padding: 8% 0 0 0;
         align-items: center;
+    }
+
+    /* Main Tour Fechas */
+
+    .fechas_tour{
+        flex-direction: column;
+        margin: 0 10%;
+    }
+
+    .primera_fecha{
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    .segunda_fecha{
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    .tercera_fecha{
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    .cuarta_fecha{
+        width: 100%;
+        justify-content: space-between;
+        margin: 0;
+    }
+
+    .quinta_fecha{
+        width: 100%;
+        justify-content: space-between;
     }
 
     /* Footer */
