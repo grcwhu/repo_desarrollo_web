@@ -257,20 +257,26 @@ nav img{
     margin-top: 20px;
 }
 
-/* Main Discogafía */
+/* Main Discografía */
 
 .albumes{
+    padding: 0;
     margin: 100px 50px;
     display: flex;
     justify-content: space-between;
 }
 
+.albumes_recientes{
+    width: 48%;
+}
+
 .albumes_antiguos{
-    padding-left: 50px; 
+    width: 49%;
 }
 
 .albumes img{
-    width: 320px;
+    width: 280px;
+    height: 260px;
 }
 
 .albumes input{
