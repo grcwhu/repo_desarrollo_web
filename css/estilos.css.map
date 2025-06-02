@@ -1,1 +1,1 @@
-{"version":3,"sourceRoot":"","sources":["../sass/partials/_header-footer.scss"],"names":[],"mappings":"AAAA","file":"estilos.css"}
+{"version":3,"sourceRoot":"","sources":["../sass/partials/_general.scss","../sass/partials/_header-footer.scss","../sass/partials/_index.scss","../sass/partials/_trayectoria.scss","../sass/partials/_discografia.scss","../sass/partials/_tour.scss","../sass/partials/_contacto.scss","../sass/partials/_media-queries.scss"],"names":[],"mappings":";AAAA;ACAA;ACAA;ACAA;ACAA;ACAA;ACAA;ACAA","file":"estilos.css"}
