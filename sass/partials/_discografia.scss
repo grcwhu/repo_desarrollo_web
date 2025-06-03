@@ -1,1 +1,157 @@
 /*Discografía*/
+.albumes{
+    padding: 0;
+    margin: 6% 3%;
+    display: flex;
+    justify-content: space-between;
+    .albumes_recientes{
+        width: 48%;
+        .mixtape_dominate{
+            margin-bottom: 50px;
+            display: flex;
+            justify-content: space-between;
+            .mixtape_dominate_texto{
+                padding: 20px 0 20px 40px;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                p{
+                    text-align: justify;
+                    font-size: 15px;
+                    letter-spacing: 1px;
+                    line-height: 25px;     
+                }
+            }
+        }
+        .hop_album{
+            margin-bottom: 50px;
+            display: flex;
+            justify-content: space-between;
+            .hop_album_texto{
+                padding: 20px 0 20px 40px;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                p{
+                    text-align: justify;
+                    font-size: 15px;
+                    letter-spacing: 1px;
+                    line-height: 25px;    
+                }     
+            }
+        }
+        .ate_album{
+            margin-bottom: 50px;
+            display: flex;
+            justify-content: space-between;
+            .ate_album_texto{
+                padding: 20px 0 20px 40px;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                p{
+                    text-align: justify;
+                    font-size: 15px;
+                    letter-spacing: 1px;
+                    line-height: 25px;   
+                }
+            }  
+        }
+        .rockstar_album{
+            display: flex;
+            justify-content: space-between;
+            .rockstar_album_texto{
+                padding: 20px 0 20px 40px;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between; 
+                p{
+                    text-align: justify;
+                    font-size: 15px;
+                    letter-spacing: 1px;
+                    line-height: 25px;   
+                }  
+            }    
+        }
+    }
+    .albumes_antiguos{
+        width: 49%;
+        .fivestar_album{
+            margin-bottom: 50px;
+            display: flex;
+            justify-content: space-around;
+            .fivestar_album_texto{
+                padding: 20px 0 20px 40px;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                p{
+                    text-align: justify;
+                    font-size: 15px;
+                    letter-spacing: 1px;
+                    line-height: 25px;
+                }
+            }
+        }
+        .maxident_album{
+            margin-bottom: 50px;
+            display: flex;
+            justify-content: space-between;
+            .maxident_album_texto{
+                padding: 20px 0 20px 40px;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                p{
+                    text-align: justify;
+                    font-size: 15px;
+                    letter-spacing: 1px;
+                    line-height: 25px;  
+                } 
+            }   
+        }
+        .oddinary_album {
+            margin-bottom: 50px;
+            display: flex;
+            justify-content: space-between;
+            .oddinary_album_texto{
+                padding: 20px 0 20px 40px;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                p{
+                    text-align: justify;
+                    font-size: 15px;
+                    letter-spacing: 1px;
+                    line-height: 25px;    
+                }  
+            }
+        }
+        .noeasy_album{
+            display: flex;
+            justify-content: space-between;
+            .noeasy_album_texto{
+                padding: 20px 0 20px 40px;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                p{
+                    text-align: justify;
+                    font-size: 15px;
+                    letter-spacing: 1px;
+                    line-height: 25px;    
+                }   
+            }   
+        }       
+    }
+    img{
+        width: 280px;
+        height: 260px; 
+    }
+    input{
+        color: #ffffff;
+        background-color: #BF3131;
+        border-radius: 3px;
+        padding: 5px;     
+    }
+}
