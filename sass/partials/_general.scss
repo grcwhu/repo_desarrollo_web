@@ -1,1 +1,53 @@
-/*Estilos generales*/
+/* Estilos generales */
+
+/* Paleta de colores 
+#7D0A0A #BF3131 #EAD196 */
+
+/* Font */
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap');
+
+/* Font family 
+"Merriweather", serif; 
+*/
+
+/* Body */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul{
+    list-style: none;
+}
+
+body{
+    background-color:#EAD196;
+    font-family: "Merriweather", serif; 
+}
+
+/* Títulos */
+h1{
+    font-size: 35px;
+    text-align: center;
+    color: #7D0A0A;
+    margin: 50px;
+    font-weight: bold;
+}
+
+h2{
+    font-size: 24px;
+    color: #7D0A0A;
+    font-weight: bold;
+}
+
+/*Textos*/
+
+p{
+    font-size: 15px;
+    letter-spacing: 0.5px;
+    line-height: 25px;
+    color: black;
+}
+
