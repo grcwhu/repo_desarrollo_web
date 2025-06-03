@@ -533,6 +533,49 @@ footer img {
 }
 
 /*Contacto*/
+.contacto {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.contacto .formulario {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.contacto .formulario .descripcion {
+  text-align: center;
+}
+.contacto .formulario form {
+  height: 500px;
+  width: 55%;
+  margin-top: 50px;
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: stretch;
+}
+.contacto .formulario form .botones {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+.contacto .formulario form .botones .boton_enviar {
+  color: #ffffff;
+  background-color: #7d0a0a;
+  border-radius: 15px;
+  margin-bottom: 30px;
+}
+.contacto .formulario form .botones .boton_borrar {
+  color: #ffffff;
+  background-color: #BF3131;
+  border-radius: 15px;
+}
+
 /*Media Queries*/
 
 /*# sourceMappingURL=estilos.css.map */
