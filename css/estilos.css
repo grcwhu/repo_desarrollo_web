@@ -156,6 +156,69 @@ footer img {
 }
 
 /*Trayectoria*/
+/* Pre-debut */
+.predebut {
+  margin: 100px 50px;
+  display: flex;
+  justify-content: space-between;
+}
+.predebut img {
+  width: 680px;
+}
+.predebut .predebut_texto {
+  margin-left: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.predebut .predebut_texto p {
+  text-align: justify;
+  margin-top: 20px;
+}
+
+/* Debut */
+.debut {
+  margin: 120px 50px;
+  display: flex;
+  justify-content: space-between;
+}
+.debut img {
+  width: 680px;
+}
+.debut .debut_texto {
+  margin-right: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.debut .debut_texto p {
+  text-align: justify;
+  margin-top: 20px;
+}
+
+/* Primer puesto */
+.primer_puesto {
+  margin: 120px 50px;
+  display: flex;
+  justify-content: space-between;
+}
+.primer_puesto img {
+  width: 680px;
+}
+.primer_puesto .primer_puesto_texto {
+  margin-left: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.primer_puesto .primer_puesto_texto p {
+  text-align: justify;
+  margin-top: 20px;
+}
+
 /*Discografía*/
 /*Tour*/
 /*Contacto*/

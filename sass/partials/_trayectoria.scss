@@ -1,1 +1,84 @@
 /*Trayectoria*/
+/* Pre-debut */
+.predebut{
+    margin: 100px 50px;
+    display: flex;
+    justify-content: space-between;
+    img{
+        width: 680px;
+    }
+    .predebut_texto{
+        margin-left: 50px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        p{
+            text-align: justify;
+            margin-top: 20px; 
+        }
+    }
+}
+
+/* Debut */
+.debut{
+    margin: 120px 50px; 
+    display: flex;
+    justify-content: space-between;
+    img{
+        width: 680px;
+    }
+    .debut_texto{
+        margin-right: 50px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        p{
+            text-align: justify;
+            margin-top: 20px;   
+        }  
+    }   
+}
+
+/* Primer puesto */
+.primer_puesto{
+    margin: 120px 50px; 
+    display: flex;
+    justify-content: space-between;
+    img{
+        width: 680px; 
+    }
+    .primer_puesto_texto{
+        margin-left: 50px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        p{
+            text-align: justify;
+            margin-top: 20px;
+        }
+    }
+}
+
+/* Gods menu */
+.gods_menu{
+    margin: 100px 50px; 
+    display: flex;
+    justify-content: space-between;
+    img{
+        width: 680px;
+    }
+    .gods_menu_texto{
+        margin-right: 50px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        p{
+            text-align: justify;
+            margin-top: 20px;   
+        }
+    }
+}
