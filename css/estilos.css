@@ -399,6 +399,139 @@ footer img {
 }
 
 /*Tour*/
+/* Fechas del tour */
+.fechas_tour {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 50px;
+}
+.fechas_tour input {
+  color: #ffffff;
+  background-color: #BF3131;
+  border-radius: 3px;
+}
+.fechas_tour .primera_fecha {
+  height: 200px;
+  width: 550px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.fechas_tour .primera_fecha h2 {
+  margin-bottom: 30px;
+}
+.fechas_tour .primera_fecha p {
+  margin-bottom: 10px;
+}
+.fechas_tour .primera_fecha input {
+  width: 90px;
+  height: 30px;
+}
+.fechas_tour .segunda_fecha {
+  height: 200px;
+  width: 550px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.fechas_tour .segunda_fecha h2 {
+  margin-bottom: 30px;
+}
+.fechas_tour .segunda_fecha p {
+  margin-bottom: 10px;
+}
+.fechas_tour .segunda_fecha input {
+  width: 90px;
+  height: 30px;
+}
+.fechas_tour .tercera_fecha {
+  height: 200px;
+  width: 550px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.fechas_tour .tercera_fecha h2 {
+  margin-bottom: 30px;
+}
+.fechas_tour .tercera_fecha p {
+  margin-bottom: 10px;
+}
+.fechas_tour .tercera_fecha input {
+  width: 90px;
+  height: 30px;
+}
+.fechas_tour .cuarta_fecha {
+  height: 200px;
+  width: 550px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.fechas_tour .cuarta_fecha h2 {
+  margin-bottom: 30px;
+}
+.fechas_tour .cuarta_fecha p {
+  margin-bottom: 10px;
+}
+.fechas_tour .cuarta_fecha input {
+  width: 90px;
+  height: 30px;
+}
+.fechas_tour .quinta_fecha {
+  height: 200px;
+  width: 550px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.fechas_tour .quinta_fecha h2 {
+  margin-bottom: 30px;
+}
+.fechas_tour .quinta_fecha p {
+  margin-bottom: 10px;
+}
+.fechas_tour .quinta_fecha input {
+  width: 90px;
+  height: 30px;
+}
+
+/* Galería Tour*/
+.titulo_galeria {
+  margin: 50px 50px;
+}
+
+.galeria {
+  display: grid;
+  grid-template-areas: "img1 img1 img2" "img3 img4 img2" "img5 img6 img6";
+  grid-template-columns: 22% 20% 24%;
+  grid-template-rows: 320px 310px 335px;
+  gap: 15px;
+  justify-content: center;
+}
+.galeria img {
+  height: 100%;
+  width: 100%;
+}
+.galeria .img_1_grid {
+  grid-area: img1;
+}
+.galeria .img_2_grid {
+  grid-area: img2;
+}
+.galeria .img_3_grid {
+  grid-area: img3;
+}
+.galeria .img_4_grid {
+  grid-area: img4;
+}
+.galeria .img_5_grid {
+  grid-area: img5;
+}
+.galeria .img_6_grid {
+  grid-area: img6;
+}
+
 /*Contacto*/
 /*Media Queries*/
 

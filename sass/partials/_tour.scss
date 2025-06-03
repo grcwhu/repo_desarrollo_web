@@ -1,1 +1,134 @@
 /*Tour*/
+/* Fechas del tour */
+.fechas_tour{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 50px;
+    input{
+        color: #ffffff;
+        background-color: #BF3131;
+        border-radius: 3px;
+    }
+    .primera_fecha{
+        height: 200px;
+        width: 550px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        h2{
+            margin-bottom: 30px;   
+        }
+        p{
+            margin-bottom: 10px; 
+        }
+        input{
+            width: 90px;
+            height: 30px;    
+        }
+    }
+    .segunda_fecha{
+        height: 200px;
+        width: 550px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        h2{
+            margin-bottom: 30px;     
+        }
+        p{
+            margin-bottom: 10px;
+        }
+        input{
+            width: 90px;
+            height: 30px;    
+        }
+    }
+    .tercera_fecha{
+        height: 200px;
+        width: 550px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        h2{
+            margin-bottom: 30px;     
+        }
+        p{
+            margin-bottom: 10px;
+        }
+        input{
+            width: 90px;
+            height: 30px;    
+        } 
+    }
+    .cuarta_fecha{
+        height: 200px;
+        width: 550px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        h2{
+            margin-bottom: 30px;     
+        }
+        p{
+            margin-bottom: 10px;
+        }
+        input{
+            width: 90px;
+            height: 30px;    
+        } 
+    }
+    .quinta_fecha{
+        height: 200px;
+        width: 550px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        h2{
+            margin-bottom: 30px;     
+        }
+        p{
+            margin-bottom: 10px;
+        }
+        input{
+            width: 90px;
+            height: 30px;    
+        } 
+    } 
+}
+/* Galería Tour*/
+.titulo_galeria{
+    margin: 50px 50px;
+}
+.galeria{
+    display: grid;
+    grid-template-areas: 
+    "img1 img1 img2"
+    "img3 img4 img2"
+    "img5 img6 img6";
+    grid-template-columns: 22% 20% 24%;
+    grid-template-rows: 320px 310px 335px;
+    gap: 15px;
+    justify-content: center;
+    img{
+        height: 100%;
+        width: 100%; 
+    }
+    .img_1_grid{
+        grid-area: img1;
+    }
+    .img_2_grid{
+        grid-area: img2;
+    }
+    .img_3_grid{
+        grid-area: img3;
+    }
+    .img_4_grid{
+        grid-area: img4;
+    }
+    .img_5_grid{
+        grid-area: img5;
+    }
+    .img_6_grid{
+        grid-area: img6;
+    }
+}
