@@ -41,22 +41,23 @@
 /* Integrantes */
 .titulo_integrantes{
     font-weight: bold;
-    padding-left: 50px; 
-    .integrante{
-        background-color: #EAD196;
-        border-color: #7D0A0A;
-        border-width: 2px;
-        color: black;
-        h3{
-            text-align: center;
-            color: #7D0A0A;
-            font-weight: bold; 
-        }
-        p{
-            text-align: justify;
-        }
-    }
+    padding-left: 50px;
 }
+.integrante{
+    background-color: #EAD196;
+    border-color: #7D0A0A;
+    border-width: 2px;
+    color: black;
+    h3{
+        text-align: center;
+        color: #7D0A0A;
+        font-weight: bold;
+    }
+    p{
+        text-align: justify;
+    }    
+}
+
 /* Lista de Spotify */
 .spotify{
     display: flex;
