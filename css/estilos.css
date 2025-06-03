@@ -58,28 +58,31 @@ p {
 .navegacion img {
   height: 70px;
 }
-.navegacion .boton_nav {
+.navegacion button {
   background-color: #ffffff;
   color: #ffffff;
 }
 
 /*Footer*/
 footer {
-  margin-top: 40px;
-  padding: 15px;
+  background-color: #BF3131;
+  margin-top: 50px;
+  padding: 40px;
   display: flex;
-  flex-direction: column;
   justify-content: space-between;
-  text-align: center;
-}
-footer div {
-  height: 20px;
-  width: 50%;
-  display: flex;
   align-items: center;
 }
-footer img {
-  width: 30px;
+footer p {
+  font-weight: bold;
+}
+footer div {
+  height: 40px;
+  width: 20%;
+  display: flex;
+  justify-content: space-between;
+}
+footer div img {
+  width: 40px;
 }
 
 /*Index*/
@@ -126,18 +129,19 @@ footer img {
   font-weight: bold;
   padding-left: 50px;
 }
-.titulo_integrantes .integrante {
+
+.integrante {
   background-color: #EAD196;
   border-color: #7D0A0A;
   border-width: 2px;
   color: black;
 }
-.titulo_integrantes .integrante h3 {
+.integrante h3 {
   text-align: center;
   color: #7D0A0A;
   font-weight: bold;
 }
-.titulo_integrantes .integrante p {
+.integrante p {
   text-align: justify;
 }
 
@@ -577,5 +581,228 @@ footer img {
 }
 
 /*Media Queries*/
+@media (max-width: 500px) {
+  /* Footer */
+  footer {
+    margin-top: 40px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+  }
+  footer div {
+    height: 20px;
+    width: 50%;
+    display: flex;
+    align-items: center;
+  }
+  footer div img {
+    width: 30px;
+  }
+  /* Index */ /* Portada */
+  .portada {
+    height: 140px;
+    width: 100%;
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+  }
+  .portada .titulo_index {
+    font-size: 20px;
+  }
+  /* Presentación */
+  .presentacion {
+    height: 30%;
+    margin: 8% 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .presentacion iframe {
+    height: 120%;
+    width: 100%;
+  }
+  .presentacion .texto_presentacion {
+    width: 75%;
+    margin-top: 5%;
+  }
+  /* Lista de Spotify */
+  .lista_spotify {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+  }
+  /* Trayectoria */
+  .predebut {
+    margin: 20px 40px 50px 40px;
+    flex-direction: column;
+    align-items: center;
+  }
+  .predebut img {
+    width: 360px;
+  }
+  .predebut .predebut_texto {
+    margin: 20px 0 0 0;
+    align-items: center;
+  }
+  .debut {
+    margin: 20px 40px 50px 40px;
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  .debut img {
+    width: 360px;
+  }
+  .debut .debut_texto {
+    margin: 20px 0 0 0;
+    align-items: center;
+  }
+  .primer_puesto {
+    margin: 20px 40px 50px 40px;
+    flex-direction: column;
+    align-items: center;
+  }
+  .primer_puesto img {
+    width: 360px;
+  }
+  .primer_puesto .primer_puesto_texto {
+    margin: 20px 0 0 0;
+    align-items: center;
+  }
+  .gods_menu {
+    margin: 20px 40px 50px 40px;
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  .gods_menu img {
+    width: 360px;
+  }
+  .gods_menu .gods_menu_texto {
+    margin: 20px 0 0 0;
+    align-items: center;
+  }
+  /* Discografía */
+  .albumes {
+    flex-direction: column;
+    align-items: center;
+  }
+  .albumes .albumes_recientes {
+    width: 60%;
+  }
+  .albumes .albumes_recientes .mixtape_dominate {
+    flex-direction: column;
+    align-items: center;
+  }
+  .albumes .albumes_recientes .mixtape_dominate .mixtape_dominate_texto {
+    padding: 8% 0 0 0;
+    align-items: center;
+  }
+  .albumes .albumes_recientes .hop_album {
+    flex-direction: column;
+    align-items: center;
+  }
+  .albumes .albumes_recientes .hop_album .hop_album_texto {
+    padding: 8% 0 0 0;
+    align-items: center;
+  }
+  .albumes .albumes_recientes .ate_album {
+    flex-direction: column;
+    align-items: center;
+  }
+  .albumes .albumes_recientes .ate_album .ate_album_texto {
+    padding: 8% 0 0 0;
+    align-items: center;
+  }
+  .albumes .albumes_recientes .rockstar_album {
+    flex-direction: column;
+    align-items: center;
+  }
+  .albumes .albumes_recientes .rockstar_album .rockstar_album_texto {
+    padding: 8% 0 0 0;
+    align-items: center;
+  }
+  .albumes .albumes_antiguos {
+    width: 60%;
+  }
+  .albumes .albumes_antiguos .fivestar_album {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 22%;
+  }
+  .albumes .albumes_antiguos .fivestar_album .fivestar_album_texto {
+    padding: 8% 0 0 0;
+    align-items: center;
+  }
+  .albumes .albumes_antiguos .maxident_album {
+    flex-direction: column;
+    align-items: center;
+  }
+  .albumes .albumes_antiguos .maxident_album .maxident_album_texto {
+    padding: 8% 0 0 0;
+    align-items: center;
+  }
+  .albumes .albumes_antiguos .oddinary_album {
+    flex-direction: column;
+    align-items: center;
+  }
+  .albumes .albumes_antiguos .oddinary_album .oddinary_album_texto {
+    padding: 8% 0 0 0;
+    align-items: center;
+  }
+  .albumes .albumes_antiguos .noeasy_album {
+    flex-direction: column;
+    align-items: center;
+  }
+  .albumes .albumes_antiguos .noeasy_album .noeasy_album_texto {
+    padding: 8% 0 0 0;
+    align-items: center;
+  }
+  /* Tour */ /* Fechas */
+  .fechas_tour {
+    flex-direction: column;
+    margin: 0 6%;
+  }
+  .fechas_tour .primera_fecha {
+    width: 100%;
+    justify-content: space-between;
+  }
+  .fechas_tour .segunda_fecha {
+    width: 100%;
+    justify-content: space-between;
+  }
+  .fechas_tour .tercera_fecha {
+    width: 100%;
+    justify-content: space-between;
+  }
+  .fechas_tour .cuarta_fecha {
+    width: 100%;
+    justify-content: space-between;
+    margin: 0;
+  }
+  .fechas_tour .quinta_fecha {
+    width: 100%;
+    justify-content: space-between;
+  }
+  /* Galería Tour */
+  .galeria {
+    grid-template-areas: "img1" "img2" "img3" "img4" "img5" "img6";
+    grid-template-columns: 80%;
+    grid-template-rows: 15% 25% repeat(3, 16%) 10%;
+    margin-bottom: 15%;
+  }
+  /* Contacto */
+  .contacto .formulario {
+    width: 80%;
+  }
+  .contacto .formulario .descripcion {
+    text-align: justify;
+  }
+  .contacto .formulario form {
+    width: 80%;
+  }
+}
 
 /*# sourceMappingURL=estilos.css.map */
