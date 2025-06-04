@@ -241,27 +241,22 @@ footer div img {
 .albumes .albumes_recientes {
   width: 48%;
 }
-.albumes .albumes_recientes .mixtape_dominate {
+.albumes .albumes_recientes .mixtape_dominate, .albumes .albumes_recientes .rockstar_album, .albumes .albumes_recientes .ate_album, .albumes .albumes_recientes .hop_album {
   margin-bottom: 50px;
   display: flex;
   justify-content: space-between;
 }
-.albumes .albumes_recientes .mixtape_dominate .mixtape_dominate_texto {
+.albumes .albumes_recientes .mixtape_dominate .mixtape_dominate_texto, .albumes .albumes_recientes .rockstar_album .mixtape_dominate_texto, .albumes .albumes_recientes .ate_album .mixtape_dominate_texto, .albumes .albumes_recientes .hop_album .mixtape_dominate_texto {
   padding: 20px 0 20px 40px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
-.albumes .albumes_recientes .mixtape_dominate .mixtape_dominate_texto p {
+.albumes .albumes_recientes .mixtape_dominate .mixtape_dominate_texto p, .albumes .albumes_recientes .rockstar_album .mixtape_dominate_texto p, .albumes .albumes_recientes .ate_album .mixtape_dominate_texto p, .albumes .albumes_recientes .hop_album .mixtape_dominate_texto p {
   text-align: justify;
   font-size: 15px;
   letter-spacing: 1px;
   line-height: 25px;
-}
-.albumes .albumes_recientes .hop_album {
-  margin-bottom: 50px;
-  display: flex;
-  justify-content: space-between;
 }
 .albumes .albumes_recientes .hop_album .hop_album_texto {
   padding: 20px 0 20px 40px;
@@ -275,11 +270,6 @@ footer div img {
   letter-spacing: 1px;
   line-height: 25px;
 }
-.albumes .albumes_recientes .ate_album {
-  margin-bottom: 50px;
-  display: flex;
-  justify-content: space-between;
-}
 .albumes .albumes_recientes .ate_album .ate_album_texto {
   padding: 20px 0 20px 40px;
   display: flex;
@@ -291,10 +281,6 @@ footer div img {
   font-size: 15px;
   letter-spacing: 1px;
   line-height: 25px;
-}
-.albumes .albumes_recientes .rockstar_album {
-  display: flex;
-  justify-content: space-between;
 }
 .albumes .albumes_recientes .rockstar_album .rockstar_album_texto {
   padding: 20px 0 20px 40px;
@@ -311,27 +297,22 @@ footer div img {
 .albumes .albumes_antiguos {
   width: 49%;
 }
-.albumes .albumes_antiguos .fivestar_album {
+.albumes .albumes_antiguos .fivestar_album, .albumes .albumes_antiguos .noeasy_album, .albumes .albumes_antiguos .oddinary_album, .albumes .albumes_antiguos .maxident_album {
   margin-bottom: 50px;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
 }
-.albumes .albumes_antiguos .fivestar_album .fivestar_album_texto {
+.albumes .albumes_antiguos .fivestar_album .fivestar_album_texto, .albumes .albumes_antiguos .noeasy_album .fivestar_album_texto, .albumes .albumes_antiguos .oddinary_album .fivestar_album_texto, .albumes .albumes_antiguos .maxident_album .fivestar_album_texto {
   padding: 20px 0 20px 40px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
-.albumes .albumes_antiguos .fivestar_album .fivestar_album_texto p {
+.albumes .albumes_antiguos .fivestar_album .fivestar_album_texto p, .albumes .albumes_antiguos .noeasy_album .fivestar_album_texto p, .albumes .albumes_antiguos .oddinary_album .fivestar_album_texto p, .albumes .albumes_antiguos .maxident_album .fivestar_album_texto p {
   text-align: justify;
   font-size: 15px;
   letter-spacing: 1px;
   line-height: 25px;
-}
-.albumes .albumes_antiguos .maxident_album {
-  margin-bottom: 50px;
-  display: flex;
-  justify-content: space-between;
 }
 .albumes .albumes_antiguos .maxident_album .maxident_album_texto {
   padding: 20px 0 20px 40px;
@@ -345,11 +326,6 @@ footer div img {
   letter-spacing: 1px;
   line-height: 25px;
 }
-.albumes .albumes_antiguos .oddinary_album {
-  margin-bottom: 50px;
-  display: flex;
-  justify-content: space-between;
-}
 .albumes .albumes_antiguos .oddinary_album .oddinary_album_texto {
   padding: 20px 0 20px 40px;
   display: flex;
@@ -361,10 +337,6 @@ footer div img {
   font-size: 15px;
   letter-spacing: 1px;
   line-height: 25px;
-}
-.albumes .albumes_antiguos .noeasy_album {
-  display: flex;
-  justify-content: space-between;
 }
 .albumes .albumes_antiguos .noeasy_album .noeasy_album_texto {
   padding: 20px 0 20px 40px;
@@ -752,7 +724,23 @@ footer div img {
     flex-direction: column;
     margin: 0 6%;
   }
-  .fechas_tour .primera_fecha, .fechas_tour .quinta_fecha, .fechas_tour .cuarta_fecha, .fechas_tour .tercera_fecha, .fechas_tour .segunda_fecha {
+  .fechas_tour .primera_fecha {
+    width: 100%;
+    justify-content: space-between;
+  }
+  .fechas_tour .segunda_fecha {
+    width: 100%;
+    justify-content: space-between;
+  }
+  .fechas_tour .tercera_fecha {
+    width: 100%;
+    justify-content: space-between;
+  }
+  .fechas_tour .cuarta_fecha {
+    width: 100%;
+    justify-content: space-between;
+  }
+  .fechas_tour .quinta_fecha {
     width: 100%;
     justify-content: space-between;
   }

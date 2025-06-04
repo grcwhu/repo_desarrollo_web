@@ -12,65 +12,36 @@
             display: flex;
             justify-content: space-between;
             .mixtape_dominate_texto{
-                padding: 20px 0 20px 40px;
-                display: flex;
-                flex-direction: column;
-                justify-content: space-between;
+                @include texto_album;
                 p{
-                    text-align: justify;
-                    font-size: 15px;
-                    letter-spacing: 1px;
-                    line-height: 25px;     
+                    @include parrafo_album;     
                 }
             }
         }
         .hop_album{
-            margin-bottom: 50px;
-            display: flex;
-            justify-content: space-between;
+            @extend .mixtape_dominate;
             .hop_album_texto{
-                padding: 20px 0 20px 40px;
-                display: flex;
-                flex-direction: column;
-                justify-content: space-between;
+                @include texto_album;
                 p{
-                    text-align: justify;
-                    font-size: 15px;
-                    letter-spacing: 1px;
-                    line-height: 25px;    
+                    @include parrafo_album;    
                 }     
             }
         }
         .ate_album{
-            margin-bottom: 50px;
-            display: flex;
-            justify-content: space-between;
+            @extend .mixtape_dominate;
             .ate_album_texto{
-                padding: 20px 0 20px 40px;
-                display: flex;
-                flex-direction: column;
-                justify-content: space-between;
+                @include texto_album;
                 p{
-                    text-align: justify;
-                    font-size: 15px;
-                    letter-spacing: 1px;
-                    line-height: 25px;   
+                    @include parrafo_album;   
                 }
             }  
         }
         .rockstar_album{
-            display: flex;
-            justify-content: space-between;
+            @extend .mixtape_dominate;
             .rockstar_album_texto{
-                padding: 20px 0 20px 40px;
-                display: flex;
-                flex-direction: column;
-                justify-content: space-between; 
+                @include texto_album; 
                 p{
-                    text-align: justify;
-                    font-size: 15px;
-                    letter-spacing: 1px;
-                    line-height: 25px;   
+                    @include parrafo_album;   
                 }  
             }    
         }
@@ -80,67 +51,38 @@
         .fivestar_album{
             margin-bottom: 50px;
             display: flex;
-            justify-content: space-around;
+            justify-content: space-between;
             .fivestar_album_texto{
-                padding: 20px 0 20px 40px;
-                display: flex;
-                flex-direction: column;
-                justify-content: space-between;
+                @include texto_album;
                 p{
-                    text-align: justify;
-                    font-size: 15px;
-                    letter-spacing: 1px;
-                    line-height: 25px;
+                    @include parrafo_album;
                 }
             }
         }
         .maxident_album{
-            margin-bottom: 50px;
-            display: flex;
-            justify-content: space-between;
+            @extend .fivestar_album;
             .maxident_album_texto{
-                padding: 20px 0 20px 40px;
-                display: flex;
-                flex-direction: column;
-                justify-content: space-between;
+                @include texto_album;
                 p{
-                    text-align: justify;
-                    font-size: 15px;
-                    letter-spacing: 1px;
-                    line-height: 25px;  
+                    @include parrafo_album;  
                 } 
             }   
         }
         .oddinary_album {
-            margin-bottom: 50px;
-            display: flex;
-            justify-content: space-between;
+            @extend .fivestar_album;
             .oddinary_album_texto{
-                padding: 20px 0 20px 40px;
-                display: flex;
-                flex-direction: column;
-                justify-content: space-between;
+                @include texto_album;
                 p{
-                    text-align: justify;
-                    font-size: 15px;
-                    letter-spacing: 1px;
-                    line-height: 25px;    
+                    @include parrafo_album;    
                 }  
             }
         }
         .noeasy_album{
-            display: flex;
-            justify-content: space-between;
+            @extend .fivestar_album;
             .noeasy_album_texto{
-                padding: 20px 0 20px 40px;
-                display: flex;
-                flex-direction: column;
-                justify-content: space-between;
+                @include texto_album;
                 p{
-                    text-align: justify;
-                    font-size: 15px;
-                    letter-spacing: 1px;
-                    line-height: 25px;    
+                    @include parrafo_album;    
                 }   
             }   
         }       

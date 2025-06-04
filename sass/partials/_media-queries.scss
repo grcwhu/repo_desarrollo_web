@@ -192,16 +192,16 @@
             justify-content: space-between;
         }
         .segunda_fecha{
-            @extend .primera_fecha;
+            @include fecha;
         }
         .tercera_fecha{
-            @extend .primera_fecha;
+            @include fecha;
         }
         .cuarta_fecha{
-            @extend .primera_fecha;
+            @include fecha;
         }
         .quinta_fecha{
-            @extend .primera_fecha;
+            @include fecha;
         }
     }
     /* Galería Tour */

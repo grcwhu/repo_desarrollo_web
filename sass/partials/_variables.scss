@@ -4,3 +4,32 @@ $amarillo: #EAD196;
 $rojo: #BF3131;
 $negro: #000000;
 $blanco: #ffffff;
+
+// Mixin
+
+// Trayectoria
+@mixin parrafo_hito{
+    text-align: justify;
+    margin-top: 20px;
+}
+
+// Discografía
+@mixin texto_album{
+    padding: 20px 0 20px 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+@mixin parrafo_album{
+    text-align: justify;
+    font-size: 15px;
+    letter-spacing: 1px;
+    line-height: 25px;
+}
+
+// Media Queries
+@mixin fecha{
+    width: 100%;
+    justify-content: space-between;
+}
