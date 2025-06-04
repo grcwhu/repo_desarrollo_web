@@ -19,7 +19,7 @@ ul{
 }
 
 body{
-    background-color:#EAD196;
+    background-color: $amarillo;
     font-family: "Merriweather", serif; 
 }
 
@@ -27,14 +27,14 @@ body{
 h1{
     font-size: 35px;
     text-align: center;
-    color: #7D0A0A;
+    color: $rojo_oscuro;
     margin: 50px;
     font-weight: bold;
 }
 
 h2{
     font-size: 24px;
-    color: #7D0A0A;
+    color: $rojo_oscuro;
     font-weight: bold;
 }
 
@@ -44,6 +44,6 @@ p{
     font-size: 15px;
     letter-spacing: 0.5px;
     line-height: 25px;
-    color: black;
+    color: $negro;
 }
 

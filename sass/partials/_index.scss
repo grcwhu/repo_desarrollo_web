@@ -11,7 +11,7 @@
     align-items: flex-end;
     .titulo_index{
         font-size: 85px;
-        color: #ffffff;
+        color: $blanco;
         text-shadow: 6px 6px 6px rgba(38, 36, 36, 0.832);
         letter-spacing: 3px;
         word-spacing: 3px;
@@ -44,13 +44,13 @@
     padding-left: 50px;
 }
 .integrante{
-    background-color: #EAD196;
-    border-color: #7D0A0A;
+    background-color: $amarillo;
+    border-color: $rojo_oscuro;
     border-width: 2px;
-    color: black;
+    color: $negro;
     h3{
         text-align: center;
-        color: #7D0A0A;
+        color: $rojo_oscuro;
         font-weight: bold;
     }
     p{

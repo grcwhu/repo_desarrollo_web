@@ -40,7 +40,7 @@ p {
   font-size: 15px;
   letter-spacing: 0.5px;
   line-height: 25px;
-  color: black;
+  color: #000000;
 }
 
 /*Header*/
@@ -131,7 +131,7 @@ footer div img {
   background-color: #EAD196;
   border-color: #7D0A0A;
   border-width: 2px;
-  color: black;
+  color: #000000;
 }
 .integrante h3 {
   text-align: center;
@@ -567,7 +567,7 @@ footer div img {
 }
 .contacto .formulario form .botones .boton_enviar {
   color: #ffffff;
-  background-color: #7d0a0a;
+  background-color: #7D0A0A;
   border-radius: 15px;
   margin-bottom: 30px;
 }

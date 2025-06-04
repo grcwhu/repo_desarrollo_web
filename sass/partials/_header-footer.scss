@@ -1,9 +1,9 @@
 @use "./variables" as*;
 /*Header*/
 .navegacion{
-    background-color: #7D0A0A;
+    background-color: $rojo_oscuro;
     a{
-        color: #ffffff;
+        color: $blanco;
         font-size: 17px;
         font-weight: bold;
     }
@@ -11,14 +11,14 @@
         height: 70px; 
     }
     button{
-        background-color: #ffffff;
-        color: #ffffff;
+        background-color: $blanco;
+        color: $blanco;
     }
 }
 
 /*Footer*/
 footer{ 
-    background-color: #BF3131; 
+    background-color: $rojo; 
     margin-top: 50px;
     padding: 40px;
     display: flex;

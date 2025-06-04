@@ -29,13 +29,13 @@
                 align-items: stretch;
                 .boton_enviar{
                     color: #ffffff;
-                    background-color: #7d0a0a;
+                    background-color: $rojo_oscuro;
                     border-radius: 15px;
                     margin-bottom: 30px;
                 }
                 .boton_borrar{
-                    color: #ffffff;
-                    background-color: #BF3131;
+                    color: $blanco;
+                    background-color: $rojo;
                     border-radius: 15px;
                 }   
             }
