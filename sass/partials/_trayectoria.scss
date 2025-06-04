@@ -44,12 +44,8 @@
 
 /* Primer puesto */
 .primer_puesto{
+    @extend .predebut;
     margin: 120px 50px; 
-    display: flex;
-    justify-content: space-between;
-    img{
-        width: 680px; 
-    }
     .primer_puesto_texto{
         margin-left: 50px;
         display: flex;
@@ -65,12 +61,8 @@
 
 /* Gods menu */
 .gods_menu{
+   @extend .debut;
     margin: 100px 50px; 
-    display: flex;
-    justify-content: space-between;
-    img{
-        width: 680px;
-    }
     .gods_menu_texto{
         margin-right: 50px;
         display: flex;

@@ -158,43 +158,43 @@ footer div img {
 
 /*Trayectoria*/
 /* Pre-debut */
-.predebut {
+.predebut, .primer_puesto {
   margin: 100px 50px;
   display: flex;
   justify-content: space-between;
 }
-.predebut img {
+.predebut img, .primer_puesto img {
   width: 680px;
 }
-.predebut .predebut_texto {
+.predebut .predebut_texto, .primer_puesto .predebut_texto {
   margin-left: 50px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
-.predebut .predebut_texto p {
+.predebut .predebut_texto p, .primer_puesto .predebut_texto p {
   text-align: justify;
   margin-top: 20px;
 }
 
 /* Debut */
-.debut {
+.debut, .gods_menu {
   margin: 120px 50px;
   display: flex;
   justify-content: space-between;
 }
-.debut img {
+.debut img, .gods_menu img {
   width: 680px;
 }
-.debut .debut_texto {
+.debut .debut_texto, .gods_menu .debut_texto {
   margin-right: 50px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
-.debut .debut_texto p {
+.debut .debut_texto p, .gods_menu .debut_texto p {
   text-align: justify;
   margin-top: 20px;
 }
@@ -202,11 +202,6 @@ footer div img {
 /* Primer puesto */
 .primer_puesto {
   margin: 120px 50px;
-  display: flex;
-  justify-content: space-between;
-}
-.primer_puesto img {
-  width: 680px;
 }
 .primer_puesto .primer_puesto_texto {
   margin-left: 50px;
@@ -223,11 +218,6 @@ footer div img {
 /* Gods menu */
 .gods_menu {
   margin: 100px 50px;
-  display: flex;
-  justify-content: space-between;
-}
-.gods_menu img {
-  width: 680px;
 }
 .gods_menu .gods_menu_texto {
   margin-right: 50px;
@@ -762,24 +752,7 @@ footer div img {
     flex-direction: column;
     margin: 0 6%;
   }
-  .fechas_tour .primera_fecha {
-    width: 100%;
-    justify-content: space-between;
-  }
-  .fechas_tour .segunda_fecha {
-    width: 100%;
-    justify-content: space-between;
-  }
-  .fechas_tour .tercera_fecha {
-    width: 100%;
-    justify-content: space-between;
-  }
-  .fechas_tour .cuarta_fecha {
-    width: 100%;
-    justify-content: space-between;
-    margin: 0;
-  }
-  .fechas_tour .quinta_fecha {
+  .fechas_tour .primera_fecha, .fechas_tour .quinta_fecha, .fechas_tour .cuarta_fecha, .fechas_tour .tercera_fecha, .fechas_tour .segunda_fecha {
     width: 100%;
     justify-content: space-between;
   }

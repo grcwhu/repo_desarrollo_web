@@ -192,21 +192,16 @@
             justify-content: space-between;
         }
         .segunda_fecha{
-            width: 100%;
-            justify-content: space-between;
+            @extend .primera_fecha;
         }
         .tercera_fecha{
-            width: 100%;
-            justify-content: space-between;
+            @extend .primera_fecha;
         }
         .cuarta_fecha{
-            width: 100%;
-            justify-content: space-between;
-            margin: 0;
+            @extend .primera_fecha;
         }
         .quinta_fecha{
-            width: 100%;
-            justify-content: space-between;
+            @extend .primera_fecha;
         }
     }
     /* Galería Tour */
