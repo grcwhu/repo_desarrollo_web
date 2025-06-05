@@ -9,6 +9,9 @@
         color: $blanco;
         background-color: $rojo;
         border-radius: 3px;
+        &:hover{
+            color: $negro;
+        }   
     }
     .primera_fecha{
         height: 200px;

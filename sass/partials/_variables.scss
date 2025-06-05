@@ -33,3 +33,13 @@ $blanco: #ffffff;
     width: 100%;
     justify-content: space-between;
 }
+
+//Contacto
+@mixin boton_contacto{
+    height: 32px;
+    color: $blanco;
+    border-radius: 15px;
+    &:hover{
+        color: $negro;
+    } 
+}

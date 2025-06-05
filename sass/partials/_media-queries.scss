@@ -1,6 +1,15 @@
 @use "./variables" as*;
 /*Media Queries*/
 @media (max-width: 500px){
+    /* Header */
+    .navegacion{
+        a{
+            &:hover{
+                transform: scale(1);
+            }
+        }
+    }
+    
     /* Footer */
     footer{
         margin-top: 40px;

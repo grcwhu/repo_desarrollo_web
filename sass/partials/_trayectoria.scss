@@ -7,6 +7,10 @@
     justify-content: space-between;
     img{
         width: 680px;
+        border-radius: 10px;
+        &:hover{
+            transform: scale(1.1);
+        }
     }
     .predebut_texto{
         margin-left: 50px;
@@ -27,6 +31,10 @@
     justify-content: space-between;
     img{
         width: 680px;
+        border-radius: 10px;
+        &:hover{
+            transform: scale(1.1);
+        }
     }
     .debut_texto{
         margin-right: 50px;
@@ -43,7 +51,7 @@
 /* Primer puesto */
 .primer_puesto{
     @extend .predebut;
-    margin: 120px 50px; 
+    margin: 120px 50px;
     .primer_puesto_texto{
         margin-left: 50px;
         display: flex;
