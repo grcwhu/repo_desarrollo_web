@@ -11,6 +11,7 @@
         font-size: 17px;
         font-weight: bold;
         &:hover{
+            color: $blanco;
             transform: scale(1.2);
         }
     }

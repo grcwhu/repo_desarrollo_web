@@ -57,6 +57,7 @@ p {
   font-weight: bold;
 }
 .navegacion a:hover {
+  color: #ffffff;
   transform: scale(1.2);
 }
 .navegacion img {
