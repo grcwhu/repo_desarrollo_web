@@ -11,6 +11,9 @@
             margin-bottom: 50px;
             display: flex;
             justify-content: space-between;
+            img {
+                border-radius: 10px;
+            }
             .mixtape_dominate_texto{
                 @include texto_album;
                 p{
@@ -52,6 +55,9 @@
             margin-bottom: 50px;
             display: flex;
             justify-content: space-between;
+            img {
+                border-radius: 10px;
+            }
             .fivestar_album_texto{
                 @include texto_album;
                 p{

@@ -40,6 +40,7 @@ $blanco: #ffffff;
     color: $blanco;
     border-radius: 15px;
     &:hover{
-        color: $negro;
+        color: $blanco;
+        font-weight: bold;
     } 
 }

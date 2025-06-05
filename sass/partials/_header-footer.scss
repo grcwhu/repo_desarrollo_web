@@ -30,6 +30,7 @@ footer{
     align-items: center;
     p{
         font-weight: bold;
+        margin-bottom: 0;
     }
     div{
         height: 40px;
@@ -38,6 +39,9 @@ footer{
         justify-content: space-between;
         img{
             width: 40px;
+            &:hover{
+                transform: scale(1.2);
+            }
         }
     } 
 }

@@ -75,6 +75,7 @@ footer {
 }
 footer p {
   font-weight: bold;
+  margin-bottom: 0;
 }
 footer div {
   height: 40px;
@@ -84,6 +85,9 @@ footer div {
 }
 footer div img {
   width: 40px;
+}
+footer div img:hover {
+  transform: scale(1.2);
 }
 
 /*Index*/
@@ -264,6 +268,9 @@ footer div img {
   display: flex;
   justify-content: space-between;
 }
+.albumes .albumes_recientes .mixtape_dominate img, .albumes .albumes_recientes .rockstar_album img, .albumes .albumes_recientes .ate_album img, .albumes .albumes_recientes .hop_album img {
+  border-radius: 10px;
+}
 .albumes .albumes_recientes .mixtape_dominate .mixtape_dominate_texto, .albumes .albumes_recientes .rockstar_album .mixtape_dominate_texto, .albumes .albumes_recientes .ate_album .mixtape_dominate_texto, .albumes .albumes_recientes .hop_album .mixtape_dominate_texto {
   padding: 20px 0 20px 40px;
   display: flex;
@@ -319,6 +326,9 @@ footer div img {
   margin-bottom: 50px;
   display: flex;
   justify-content: space-between;
+}
+.albumes .albumes_antiguos .fivestar_album img, .albumes .albumes_antiguos .noeasy_album img, .albumes .albumes_antiguos .oddinary_album img, .albumes .albumes_antiguos .maxident_album img {
+  border-radius: 10px;
 }
 .albumes .albumes_antiguos .fivestar_album .fivestar_album_texto, .albumes .albumes_antiguos .noeasy_album .fivestar_album_texto, .albumes .albumes_antiguos .oddinary_album .fivestar_album_texto, .albumes .albumes_antiguos .maxident_album .fivestar_album_texto {
   padding: 20px 0 20px 40px;
@@ -559,7 +569,8 @@ footer div img {
   margin-bottom: 30px;
 }
 .contacto .formulario form .botones .boton_enviar:hover {
-  color: #000000;
+  color: #ffffff;
+  font-weight: bold;
 }
 .contacto .formulario form .botones .boton_borrar {
   height: 32px;
@@ -568,7 +579,8 @@ footer div img {
   background-color: #BF3131;
 }
 .contacto .formulario form .botones .boton_borrar:hover {
-  color: #000000;
+  color: #ffffff;
+  font-weight: bold;
 }
 
 /*Media Queries*/
@@ -587,6 +599,7 @@ footer div img {
     text-align: center;
   }
   footer div {
+    margin: 5% 0 3% 0;
     height: 20px;
     width: 50%;
     display: flex;
