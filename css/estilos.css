@@ -91,10 +91,10 @@ footer div img:hover {
 /*Index*/
 /* Portada */
 .portada {
-  background-image: url(../images/foto_portada.png);
-  height: 460px;
+  background-image: url(../images/portada_foto.jpg);
+  height: 470px;
   background-size: cover;
-  background-position: top;
+  background-position: center;
   display: flex;
   justify-content: center;
   align-items: flex-end;
@@ -611,7 +611,6 @@ footer div img:hover {
     height: 140px;
     width: 100%;
     background-size: cover;
-    background-position: top;
     background-repeat: no-repeat;
   }
   .portada .titulo_index {
@@ -648,7 +647,7 @@ footer div img:hover {
     align-items: center;
   }
   .predebut img {
-    width: 360px;
+    width: 330px;
   }
   .predebut .predebut_texto {
     margin: 20px 0 0 0;
@@ -660,7 +659,7 @@ footer div img:hover {
     align-items: center;
   }
   .debut img {
-    width: 360px;
+    width: 330px;
   }
   .debut .debut_texto {
     margin: 20px 0 0 0;
@@ -672,7 +671,7 @@ footer div img:hover {
     align-items: center;
   }
   .primer_puesto img {
-    width: 360px;
+    width: 330px;
   }
   .primer_puesto .primer_puesto_texto {
     margin: 20px 0 0 0;
@@ -684,7 +683,7 @@ footer div img:hover {
     align-items: center;
   }
   .gods_menu img {
-    width: 360px;
+    width: 330px;
   }
   .gods_menu .gods_menu_texto {
     margin: 20px 0 0 0;
