@@ -695,7 +695,7 @@ footer div img:hover {
     align-items: center;
   }
   .albumes .albumes_recientes {
-    width: 60%;
+    width: 80%;
   }
   .albumes .albumes_recientes .mixtape_dominate {
     flex-direction: column;
@@ -722,6 +722,7 @@ footer div img:hover {
     align-items: center;
   }
   .albumes .albumes_recientes .rockstar_album {
+    margin-bottom: 0px;
     flex-direction: column;
     align-items: center;
   }
@@ -730,7 +731,7 @@ footer div img:hover {
     align-items: center;
   }
   .albumes .albumes_antiguos {
-    width: 60%;
+    width: 80%;
   }
   .albumes .albumes_antiguos .fivestar_album {
     flex-direction: column;

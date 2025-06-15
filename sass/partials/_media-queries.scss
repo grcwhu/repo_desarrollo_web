@@ -120,7 +120,7 @@
         flex-direction: column;
         align-items: center;
         .albumes_recientes{
-            width: 60%;
+            width: 80%;
             .mixtape_dominate{
                 flex-direction: column;
                 align-items: center;
@@ -146,6 +146,7 @@
                 }    
             }
             .rockstar_album{
+                margin-bottom: 0px;
                 flex-direction: column;
                 align-items: center;
                 .rockstar_album_texto{
@@ -155,7 +156,7 @@
             }  
         }
         .albumes_antiguos{
-            width: 60%;
+            width: 80%;
             .fivestar_album{
                 flex-direction: column;
                 align-items: center; 
