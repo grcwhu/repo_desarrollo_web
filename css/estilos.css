@@ -49,17 +49,17 @@ p {
   background-color: #ffffff;
   color: #ffffff;
 }
-.navegacion a {
+.navegacion img {
+  height: 70px;
+}
+.navegacion .paginas a {
   color: #ffffff;
   font-size: 17px;
   font-weight: bold;
 }
-.navegacion a:hover {
+.navegacion .paginas a:hover {
   color: #ffffff;
   transform: scale(1.2);
-}
-.navegacion img {
-  height: 70px;
 }
 
 /*Footer*/

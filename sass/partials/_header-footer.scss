@@ -6,17 +6,19 @@
        background-color: $blanco;
        color: $blanco;
     }
-    a{
-        color: $blanco;
-        font-size: 17px;
-        font-weight: bold;
-        &:hover{
-            color: $blanco;
-            transform: scale(1.2);
-        }
-    }
     img{
         height: 70px; 
+    }
+    .paginas{
+        a{
+            color: $blanco;
+            font-size: 17px;
+            font-weight: bold;
+            &:hover{
+                color: $blanco;
+                transform: scale(1.2);
+            }
+        }
     }
 }
 
