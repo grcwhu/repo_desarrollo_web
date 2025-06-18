@@ -46,7 +46,6 @@ p {
   background-color: #7D0A0A;
 }
 .navegacion button {
-  background-color: #ffffff;
   color: #ffffff;
 }
 .navegacion img {
@@ -646,7 +645,10 @@ footer div img:hover {
     align-items: center;
   }
   .predebut img {
-    width: 330px;
+    width: 100%;
+  }
+  .predebut img:hover {
+    transform: none;
   }
   .predebut .predebut_texto {
     margin: 20px 0 0 0;
@@ -658,7 +660,10 @@ footer div img:hover {
     align-items: center;
   }
   .debut img {
-    width: 330px;
+    width: 100%;
+  }
+  .debut img:hover {
+    transform: none;
   }
   .debut .debut_texto {
     margin: 20px 0 0 0;
@@ -670,7 +675,10 @@ footer div img:hover {
     align-items: center;
   }
   .primer_puesto img {
-    width: 330px;
+    width: 100%;
+  }
+  .primer_puesto img:hover {
+    transform: none;
   }
   .primer_puesto .primer_puesto_texto {
     margin: 20px 0 0 0;
@@ -682,7 +690,10 @@ footer div img:hover {
     align-items: center;
   }
   .gods_menu img {
-    width: 330px;
+    width: 100%;
+  }
+  .gods_menu img:hover {
+    transform: none;
   }
   .gods_menu .gods_menu_texto {
     margin: 20px 0 0 0;
@@ -794,8 +805,8 @@ footer div img:hover {
   .galeria {
     grid-template-areas: "img1" "img2" "img3" "img4" "img5" "img6";
     grid-template-columns: 80%;
-    grid-template-rows: 15% 25% repeat(3, 16%) 10%;
-    margin-bottom: 15%;
+    grid-template-rows: 10% 35% repeat(3, 16%) 10%;
+    margin-bottom: 45%;
   }
   /* Contacto */
   .contacto .formulario {

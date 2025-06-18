@@ -71,7 +71,10 @@
         flex-direction: column;
         align-items: center;
         img{
-            width: 330px;
+            width: 100%;
+            &:hover{
+                transform: none;
+            }
         }
         .predebut_texto{
             margin: 20px 0 0 0;
@@ -83,7 +86,10 @@
         flex-direction: column-reverse;
         align-items: center;
         img{
-            width: 330px;  
+            width: 100%;
+            &:hover{
+                transform: none;
+            }  
         }
         .debut_texto{
             margin: 20px 0 0 0;
@@ -95,7 +101,10 @@
         flex-direction: column;
         align-items: center;
         img{
-            width: 330px;
+            width: 100%;
+            &:hover{
+                transform: none;
+            }  
         }
         .primer_puesto_texto{
             margin: 20px 0 0 0;
@@ -107,7 +116,10 @@
         flex-direction: column-reverse;
         align-items: center;
         img{
-            width: 330px;    
+            width: 100%;
+            &:hover{
+                transform: none;
+            }      
         }
         .gods_menu_texto{
             margin: 20px 0 0 0;
@@ -224,8 +236,8 @@
         "img5"
         "img6";
         grid-template-columns: 80%;
-        grid-template-rows: 15% 25% repeat(3,16%) 10%;
-        margin-bottom: 15%;
+        grid-template-rows: 10% 35% repeat(3,16%) 10%;
+        margin-bottom: 45%;
     }
 
     /* Contacto */
