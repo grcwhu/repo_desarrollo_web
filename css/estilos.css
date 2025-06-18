@@ -582,8 +582,8 @@ footer div img:hover {
 /*Media Queries*/
 @media (max-width: 500px) {
   /* Header */
-  .navegacion a:hover {
-    transform: scale(1);
+  .navegacion .paginas a:hover {
+    transform: none;
   }
   /* Footer */
   footer {
@@ -630,6 +630,10 @@ footer div img:hover {
   .presentacion .texto_presentacion {
     width: 75%;
     margin-top: 5%;
+  }
+  /* Integrantes */
+  .integrante:hover {
+    transform: none;
   }
   /* Lista de Spotify */
   .lista_spotify {

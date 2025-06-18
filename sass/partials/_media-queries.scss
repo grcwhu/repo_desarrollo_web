@@ -3,9 +3,11 @@
 @media (max-width: 500px){
     /* Header */
     .navegacion{
-        a{
-            &:hover{
-                transform: scale(1);
+        .paginas{
+            a{
+                &:hover{
+                    transform: none;
+                }
             }
         }
     }
@@ -55,6 +57,12 @@
         .texto_presentacion{
             width: 75%;
             margin-top: 5%;
+        }
+    }
+    /* Integrantes */
+    .integrante{
+        &:hover{
+            transform: none;
         }
     }
     /* Lista de Spotify */
