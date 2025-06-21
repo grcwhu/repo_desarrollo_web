@@ -6,12 +6,15 @@
     display: flex;
     justify-content: space-between;
     .albumes_recientes{
-        width: 48%;
+        width: 49%;
         .mixtape_dominate{
             margin-bottom: 50px;
             display: flex;
-            justify-content: space-between;
+            justify-content: space-evenly;
+            align-items: center;
             img {
+                width: 50%;
+                height: 50%;
                 border-radius: 10px;
             }
             .mixtape_dominate_texto{
@@ -55,7 +58,10 @@
             margin-bottom: 50px;
             display: flex;
             justify-content: space-between;
+            align-items: center;
             img {
+                width: 50%;
+                height: 50%;
                 border-radius: 10px;
             }
             .fivestar_album_texto{

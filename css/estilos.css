@@ -31,6 +31,7 @@ h1 {
 h2 {
   color: #7D0A0A;
   font-weight: bold;
+  font-size: 28px;
 }
 
 /*Textos*/
@@ -57,7 +58,6 @@ p {
   font-weight: bold;
 }
 .navegacion .paginas a:hover {
-  color: #ffffff;
   transform: scale(1.2);
 }
 
@@ -76,7 +76,7 @@ footer p {
 }
 footer div {
   height: 40px;
-  width: 20%;
+  width: 30%;
   display: flex;
   justify-content: space-between;
 }
@@ -109,14 +109,21 @@ footer div img:hover {
 
 /* Presentación */
 .presentacion {
-  height: 450px;
-  margin: 0 25px;
+  height: 50%;
+  margin: 3% 4%;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
 }
+.presentacion .video {
+  width: 50%;
+}
+.presentacion .video iframe {
+  width: 100%;
+}
 .presentacion .texto_presentacion {
-  width: 45%;
+  width: 40%;
+  margin-left: 3%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -172,16 +179,18 @@ footer div img:hover {
   margin: 100px 50px;
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 .predebut img, .primer_puesto img {
-  width: 680px;
+  width: 45%;
+  height: 30%;
   border-radius: 10px;
 }
 .predebut img:hover, .primer_puesto img:hover {
   transform: scale(1.1);
 }
 .predebut .predebut_texto, .primer_puesto .predebut_texto {
-  margin-left: 50px;
+  margin-left: 5%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -197,9 +206,11 @@ footer div img:hover {
   margin: 120px 50px;
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 .debut img, .gods_menu img {
-  width: 680px;
+  width: 45%;
+  height: 30%;
   border-radius: 10px;
 }
 .debut img:hover, .gods_menu img:hover {
@@ -257,14 +268,17 @@ footer div img:hover {
   justify-content: space-between;
 }
 .albumes .albumes_recientes {
-  width: 48%;
+  width: 49%;
 }
 .albumes .albumes_recientes .mixtape_dominate, .albumes .albumes_recientes .rockstar_album, .albumes .albumes_recientes .ate_album, .albumes .albumes_recientes .hop_album {
   margin-bottom: 50px;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
+  align-items: center;
 }
 .albumes .albumes_recientes .mixtape_dominate img, .albumes .albumes_recientes .rockstar_album img, .albumes .albumes_recientes .ate_album img, .albumes .albumes_recientes .hop_album img {
+  width: 50%;
+  height: 50%;
   border-radius: 10px;
 }
 .albumes .albumes_recientes .mixtape_dominate .mixtape_dominate_texto, .albumes .albumes_recientes .rockstar_album .mixtape_dominate_texto, .albumes .albumes_recientes .ate_album .mixtape_dominate_texto, .albumes .albumes_recientes .hop_album .mixtape_dominate_texto {
@@ -322,8 +336,11 @@ footer div img:hover {
   margin-bottom: 50px;
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 .albumes .albumes_antiguos .fivestar_album img, .albumes .albumes_antiguos .noeasy_album img, .albumes .albumes_antiguos .oddinary_album img, .albumes .albumes_antiguos .maxident_album img {
+  width: 50%;
+  height: 50%;
   border-radius: 10px;
 }
 .albumes .albumes_antiguos .fivestar_album .fivestar_album_texto, .albumes .albumes_antiguos .noeasy_album .fivestar_album_texto, .albumes .albumes_antiguos .oddinary_album .fivestar_album_texto, .albumes .albumes_antiguos .maxident_album .fivestar_album_texto {
@@ -392,7 +409,7 @@ footer div img:hover {
 /* Fechas del tour */
 .fechas_tour {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   margin: 0 50px;
 }
 .fechas_tour input {
@@ -405,7 +422,7 @@ footer div img:hover {
 }
 .fechas_tour .primera_fecha {
   height: 200px;
-  width: 550px;
+  width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -415,6 +432,7 @@ footer div img:hover {
 }
 .fechas_tour .primera_fecha p {
   margin-bottom: 10px;
+  width: 90%;
 }
 .fechas_tour .primera_fecha input {
   width: 90px;
@@ -422,7 +440,7 @@ footer div img:hover {
 }
 .fechas_tour .segunda_fecha {
   height: 200px;
-  width: 550px;
+  width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -432,6 +450,7 @@ footer div img:hover {
 }
 .fechas_tour .segunda_fecha p {
   margin-bottom: 10px;
+  width: 100%;
 }
 .fechas_tour .segunda_fecha input {
   width: 90px;
@@ -439,7 +458,7 @@ footer div img:hover {
 }
 .fechas_tour .tercera_fecha {
   height: 200px;
-  width: 550px;
+  width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -449,6 +468,7 @@ footer div img:hover {
 }
 .fechas_tour .tercera_fecha p {
   margin-bottom: 10px;
+  width: 100%;
 }
 .fechas_tour .tercera_fecha input {
   width: 90px;
@@ -456,7 +476,7 @@ footer div img:hover {
 }
 .fechas_tour .cuarta_fecha {
   height: 200px;
-  width: 550px;
+  width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -466,6 +486,7 @@ footer div img:hover {
 }
 .fechas_tour .cuarta_fecha p {
   margin-bottom: 10px;
+  width: 100%;
 }
 .fechas_tour .cuarta_fecha input {
   width: 90px;
@@ -473,7 +494,7 @@ footer div img:hover {
 }
 .fechas_tour .quinta_fecha {
   height: 200px;
-  width: 550px;
+  width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -483,6 +504,7 @@ footer div img:hover {
 }
 .fechas_tour .quinta_fecha p {
   margin-bottom: 10px;
+  width: 70%;
 }
 .fechas_tour .quinta_fecha input {
   width: 90px;
@@ -497,8 +519,8 @@ footer div img:hover {
 .galeria {
   display: grid;
   grid-template-areas: "img1 img1 img2" "img3 img4 img2" "img5 img6 img6";
-  grid-template-columns: 22% 20% 24%;
-  grid-template-rows: 320px 310px 335px;
+  grid-template-columns: 28% 28% 30%;
+  grid-template-rows: 29% 31% 35%;
   gap: 15px;
   justify-content: center;
 }
@@ -579,8 +601,12 @@ footer div img:hover {
   font-weight: bold;
 }
 
-/*Media Queries*/
+/*Media Queries*/ /*Mobile*/
 @media (max-width: 500px) {
+  /* Textos */
+  p {
+    font-size: 13px;
+  }
   /* Header */
   .navegacion .paginas a:hover {
     transform: none;
@@ -617,14 +643,16 @@ footer div img:hover {
   /* Presentación */
   .presentacion {
     height: 30%;
-    margin: 8% 0;
-    display: flex;
+    margin: 10% 0;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
   }
-  .presentacion iframe {
-    height: 120%;
+  .presentacion .video {
+    width: 65%;
+  }
+  .presentacion .video iframe {
+    height: 130%;
     width: 100%;
   }
   .presentacion .texto_presentacion {
@@ -789,21 +817,36 @@ footer div img:hover {
     width: 100%;
     justify-content: space-between;
   }
+  .fechas_tour .primera_fecha p {
+    width: 100%;
+  }
   .fechas_tour .segunda_fecha {
     width: 100%;
     justify-content: space-between;
+  }
+  .fechas_tour .segunda_fecha p {
+    width: 100%;
   }
   .fechas_tour .tercera_fecha {
     width: 100%;
     justify-content: space-between;
   }
+  .fechas_tour .tercera_fecha p {
+    width: 100%;
+  }
   .fechas_tour .cuarta_fecha {
     width: 100%;
     justify-content: space-between;
   }
+  .fechas_tour .cuarta_fecha p {
+    width: 100%;
+  }
   .fechas_tour .quinta_fecha {
     width: 100%;
     justify-content: space-between;
+  }
+  .fechas_tour .quinta_fecha p {
+    width: 100%;
   }
   /* Galería Tour */
   .galeria {
@@ -816,6 +859,138 @@ footer div img:hover {
   .contacto .formulario {
     width: 80%;
   }
+  .contacto .formulario .descripcion {
+    text-align: justify;
+  }
+  .contacto .formulario form {
+    width: 80%;
+  }
+}
+/*Media Queries*/ /*Tablet*/
+@media (min-width: 501px) and (max-width: 920px) {
+  /* Textos */
+  p {
+    font-size: 14px;
+  }
+  /* Header */
+  .navegacion .paginas a:hover {
+    transform: none;
+  }
+  /* Footer */
+  footer {
+    margin-top: 10%;
+    padding: 15px;
+    display: flex;
+  }
+  footer p {
+    font-size: 16px;
+  }
+  footer div {
+    margin: 5% 0 3% 0;
+    height: 20px;
+    width: 38%;
+    display: flex;
+    align-items: center;
+  }
+  footer div img {
+    width: 30px;
+  }
+  /* Index */ /* Portada */
+  .portada {
+    height: 290px;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .portada .titulo_index {
+    font-size: 40px;
+  }
+  /* Presentación */
+  .presentacion {
+    height: 30%;
+    margin: 10% 0;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .presentacion .video {
+    width: 80%;
+  }
+  .presentacion .video iframe {
+    width: 100%;
+  }
+  .presentacion .texto_presentacion {
+    width: 75%;
+    margin-top: 5%;
+  }
+  /* Integrantes */
+  .integrante:hover {
+    transform: none;
+  }
+  /* Trayectoria */
+  .predebut {
+    margin: 10% 3%;
+  }
+  .predebut .predebut_texto {
+    margin-left: 4%;
+  }
+  .debut {
+    margin: 10% 3%;
+  }
+  .debut .debut_texto {
+    margin-right: 4%;
+  }
+  .primer_puesto {
+    margin: 10% 3%;
+  }
+  .primer_puesto .primer_puesto_texto {
+    margin-left: 4%;
+  }
+  .gods_menu {
+    margin: 10% 3%;
+  }
+  .gods_menu .gods_menu_texto {
+    margin-right: 4%;
+  }
+  /* Discografía */
+  .albumes {
+    flex-direction: column;
+    align-items: center;
+  }
+  .albumes .albumes_recientes {
+    width: 90%;
+  }
+  .albumes .albumes_antiguos {
+    width: 90%;
+  }
+  /* Tour */
+  .fechas_tour {
+    flex-direction: column;
+    margin: 0 10%;
+  }
+  .fechas_tour .primera_fecha {
+    width: 100%;
+  }
+  .fechas_tour .segunda_fecha {
+    width: 100%;
+  }
+  .fechas_tour .tercera_fecha {
+    width: 100%;
+  }
+  .fechas_tour .cuarta_fecha {
+    width: 100%;
+  }
+  .fechas_tour .quinta_fecha {
+    width: 100%;
+  }
+  /* Galería Tour */
+  .galeria {
+    grid-template-areas: "img1" "img2" "img3" "img4" "img5" "img6";
+    grid-template-columns: 80%;
+    grid-template-rows: 8% 33% repeat(3, 16%) 10%;
+    margin-bottom: 45%;
+  }
+  /* Contacto */
   .contacto .formulario .descripcion {
     text-align: justify;
   }

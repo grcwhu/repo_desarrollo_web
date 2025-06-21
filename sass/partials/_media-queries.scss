@@ -1,6 +1,10 @@
 @use "./variables" as*;
-/*Media Queries*/
+/*Media Queries*//*Mobile*/
 @media (max-width: 500px){
+    /* Textos */
+    p{
+        font-size: 13px;
+    }
     /* Header */
     .navegacion{
         .paginas{
@@ -45,14 +49,16 @@
     /* Presentación */
     .presentacion{
         height: 30%;
-        margin: 8% 0;
-        display: flex;
+        margin: 10% 0;
         flex-direction: column;
         justify-content: space-between;
         align-items: center;
-        iframe{
-            height: 120%;
-            width: 100%;  
+        .video{
+            width: 65%;
+            iframe{
+                height: 130%;
+                width: 100%;  
+            }
         }
         .texto_presentacion{
             width: 75%;
@@ -218,8 +224,7 @@
         flex-direction: column;
         margin: 0 6%;
         .primera_fecha{
-            width: 100%;
-            justify-content: space-between;
+            @include fecha;
         }
         .segunda_fecha{
             @include fecha;
@@ -261,3 +266,158 @@
         }
     }
 }
+
+/*Media Queries*//*Tablet*/
+@media (min-width: 501px) and (max-width:920px){
+    /* Textos */
+    p{
+        font-size: 14px;
+    }
+    /* Header */
+    .navegacion{
+        .paginas{
+            a{
+                &:hover{
+                    transform: none;
+                }
+            }
+        }
+    }
+
+    /* Footer */
+    footer{
+        margin-top: 10%;
+        padding: 15px;
+        display: flex;
+        p{
+            font-size: 16px;
+        }
+        div{
+            margin: 5% 0 3% 0;
+            height: 20px;
+            width: 38%;
+            display: flex;
+            align-items: center;
+            img{
+                width: 30px;    
+            }  
+        }
+    }
+
+    /* Index *//* Portada */
+    .portada{
+        height: 290px;
+        width: 100%;
+        background-size: cover;
+        background-repeat: no-repeat; 
+        .titulo_index{
+            font-size: 40px;
+        }    
+    }
+    /* Presentación */
+    .presentacion{
+        height: 30%;
+        margin: 10% 0;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        .video{
+            width: 80%;
+            iframe{
+                width: 100%;  
+            }
+        }
+        .texto_presentacion{
+            width: 75%;
+            margin-top: 5%;
+        }
+    }
+    /* Integrantes */
+    .integrante{
+        &:hover{
+            transform: none;
+        }
+    }
+    /* Trayectoria */
+    .predebut{
+        margin: 10% 3%;
+        .predebut_texto{
+            margin-left: 4%;
+        }
+    }
+    .debut{
+        margin: 10% 3%;
+        .debut_texto{
+            margin-right: 4%;
+        }
+    }
+    .primer_puesto{
+        margin: 10% 3%;
+        .primer_puesto_texto{
+            margin-left: 4%;
+        }
+    }
+    .gods_menu{
+        margin: 10% 3%; 
+        .gods_menu_texto{
+            margin-right: 4%;
+        }
+    }
+    
+    /* Discografía */ 
+    .albumes{
+        flex-direction: column;
+        align-items: center;
+        .albumes_recientes{
+            width: 90%;
+        }
+        .albumes_antiguos{
+            width: 90%;
+        }
+    }
+    /* Tour */
+    .fechas_tour{
+        flex-direction: column;
+        margin: 0 10%;
+        .primera_fecha{
+            width: 100%;
+        }
+        .segunda_fecha{
+            width: 100%;
+        }
+        .tercera_fecha{
+            width: 100%;
+        }
+        .cuarta_fecha{
+            width: 100%;
+        }
+        .quinta_fecha{
+            width: 100%;
+        }
+    }
+    /* Galería Tour */
+    .galeria{
+        grid-template-areas: 
+        "img1"
+        "img2"
+        "img3"
+        "img4"
+        "img5"
+        "img6";
+        grid-template-columns: 80%;
+        grid-template-rows: 8% 33% repeat(3,16%) 10%;
+        margin-bottom: 45%;
+    }
+    /* Contacto */
+    .contacto{
+        .formulario{
+            .descripcion{
+                text-align: justify;
+            }
+            form{
+                width: 80%;
+            }
+        }
+    }    
+}
+

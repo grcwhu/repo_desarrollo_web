@@ -14,7 +14,6 @@
             font-size: 17px;
             font-weight: bold;
             &:hover{
-                color: $blanco;
                 transform: scale(1.2);
             }
         }
@@ -35,7 +34,7 @@ footer{
     }
     div{
         height: 40px;
-        width: 20%;
+        width: 30%;
         display: flex;
         justify-content: space-between;
         img{

@@ -5,15 +5,17 @@
     margin: 100px 50px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
     img{
-        width: 680px;
+        width: 45%;
+        height: 30%;
         border-radius: 10px;
         &:hover{
             transform: scale(1.1);
         }
     }
     .predebut_texto{
-        margin-left: 50px;
+        margin-left: 5%;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -29,8 +31,10 @@
     margin: 120px 50px; 
     display: flex;
     justify-content: space-between;
+    align-items: center;
     img{
-        width: 680px;
+        width: 45%;
+        height: 30%;
         border-radius: 10px;
         &:hover{
             transform: scale(1.1);

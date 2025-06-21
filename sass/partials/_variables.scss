@@ -32,6 +32,9 @@ $blanco: #ffffff;
 @mixin fecha{
     width: 100%;
     justify-content: space-between;
+    p{
+        width: 100%;
+    }
 }
 
 //Contacto
