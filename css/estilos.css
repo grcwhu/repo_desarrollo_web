@@ -422,7 +422,7 @@ footer div img:hover {
 }
 .fechas_tour .primera_fecha {
   height: 200px;
-  width: 100%;
+  width: 110%;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -440,7 +440,7 @@ footer div img:hover {
 }
 .fechas_tour .segunda_fecha {
   height: 200px;
-  width: 100%;
+  width: 110%;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -458,7 +458,7 @@ footer div img:hover {
 }
 .fechas_tour .tercera_fecha {
   height: 200px;
-  width: 100%;
+  width: 110%;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -476,7 +476,7 @@ footer div img:hover {
 }
 .fechas_tour .cuarta_fecha {
   height: 200px;
-  width: 100%;
+  width: 110%;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -494,7 +494,7 @@ footer div img:hover {
 }
 .fechas_tour .quinta_fecha {
   height: 200px;
-  width: 100%;
+  width: 110%;
   display: flex;
   justify-content: space-between;
   align-items: center;
